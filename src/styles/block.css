@@ -1,0 +1,18 @@
+.block{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    transform: translate(-50%,-50%);
+    width: 100px;
+    height: 100px;
+}
+.back{
+    z-index: -1;
+    background-color: black;
+}
+.relative{
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
